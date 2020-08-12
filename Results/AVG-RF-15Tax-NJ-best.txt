@@ -1,0 +1,30 @@
+Folder Name: 100gene-100bp
+Avg Branch rate: 0.391666667
+Std. Error: 0.026483748
+No. Folders: 10
+---------------------------------------------------
+Folder Name: 100gene-1000bp
+Avg Branch rate: 0.175000000
+Std. Error: 0.021889876
+No. Folders: 10
+---------------------------------------------------
+Folder Name: 1000gene-100bp
+Avg Branch rate: 0.350000000
+Std. Error: 0.010540926
+No. Folders: 10
+---------------------------------------------------
+Folder Name: 1000gene-1000bp
+Avg Branch rate: 0.125000000
+Std. Error: 0.013176157
+No. Folders: 10
+---------------------------------------------------
+Folder Name: 100gene-true
+Avg Branch rate: 0.025000000
+Std. Error: 0.012076147
+No. Folders: 10
+---------------------------------------------------
+Folder Name: 1000gene-true
+Avg Branch rate: 0.000000000
+Std. Error: 0.000000000
+No. Folders: 10
+---------------------------------------------------

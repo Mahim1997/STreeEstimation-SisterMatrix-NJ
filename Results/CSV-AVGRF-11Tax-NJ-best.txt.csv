@@ -1,0 +1,12 @@
+Model Condition,Avg Branch Rate,Std error,No. Valid Folders
+simulated_5genes_strongILS,0.050000000,0.013693064,20
+simulated_15genes_strongILS,0.050000000,0.013693064,20
+simulated_25genes_strongILS,0.000000000,0.000000000,20
+simulated_50genes_strongILS,0.000000000,0.000000000,20
+simulated_100genes_strongILS,0.000000000,0.000000000,20
+estimated_5genes_strongILS,0.337500000,0.035465652,20
+estimated_15genes_strongILS,0.156250000,0.019515619,20
+estimated_25genes_strongILS,0.106250000,0.020300477,20
+estimated_50genes_strongILS,0.056250000,0.013905372,20
+estimated_100genes_strongILS,0.062500000,0.018750000,20
+,,,

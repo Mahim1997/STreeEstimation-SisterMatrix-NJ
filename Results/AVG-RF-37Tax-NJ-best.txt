@@ -1,0 +1,60 @@
+Folder Name: noscale.100g.500b
+Avg Branch rate: 0.066176471
+Std. Error: 0.007462420
+No. Folders: 20
+---------------------------------------------------
+Folder Name: noscale.200g.1000b
+Avg Branch rate: 0.019117647
+Std. Error: 0.004300056
+No. Folders: 20
+---------------------------------------------------
+Folder Name: noscale.200g.1500b
+Avg Branch rate: 0.022058824
+Std. Error: 0.005453087
+No. Folders: 20
+---------------------------------------------------
+Folder Name: noscale.200g.250b
+Avg Branch rate: 0.073529412
+Std. Error: 0.007052693
+No. Folders: 20
+---------------------------------------------------
+Folder Name: noscale.200g.true
+Avg Branch rate: 0.014705882
+Std. Error: 0.004411765
+No. Folders: 20
+---------------------------------------------------
+Folder Name: noscale.25g.500b
+Avg Branch rate: 0.129411765
+Std. Error: 0.008675224
+No. Folders: 20
+---------------------------------------------------
+Folder Name: noscale.400g.500b
+Avg Branch rate: 0.025000000
+Std. Error: 0.005609480
+No. Folders: 20
+---------------------------------------------------
+Folder Name: noscale.50g.500b
+Avg Branch rate: 0.085294118
+Std. Error: 0.008549672
+No. Folders: 20
+---------------------------------------------------
+Folder Name: noscale.800g.500b
+Avg Branch rate: 0.010294118
+Std. Error: 0.003136872
+No. Folders: 20
+---------------------------------------------------
+Folder Name: scale2d.200g.500b
+Avg Branch rate: 0.054411765
+Std. Error: 0.006333781
+No. Folders: 20
+---------------------------------------------------
+Folder Name: scale2u.200g.500b
+Avg Branch rate: 0.030882353
+Std. Error: 0.004399493
+No. Folders: 20
+---------------------------------------------------
+Folder Name: noscale.200g.500b_ACTUALLY_scale2d.200g.500bp_ONADER
+Avg Branch rate: 0.048529412
+Std. Error: 0.006983359
+No. Folders: 20
+---------------------------------------------------

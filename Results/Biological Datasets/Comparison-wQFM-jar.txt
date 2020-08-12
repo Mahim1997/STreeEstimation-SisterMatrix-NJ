@@ -1,0 +1,11 @@
+Doing for aminota-aa
+aminota-aa		5 5 13 13
+
+Doing for aminota-nt
+aminota-nt		5 5 13 13
+
+Doing for mamalian
+mamalian		0 0 34 34
+
+Doing for angiosperm
+angiosperm		21 21 43 43
