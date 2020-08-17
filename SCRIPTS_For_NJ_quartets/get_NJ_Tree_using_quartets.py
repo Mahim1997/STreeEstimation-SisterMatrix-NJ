@@ -60,7 +60,7 @@ def get_new_quartets(string, dictionary):
     if dictionary[tax3] not in dictionary_reverse:
         dictionary_reverse[dictionary[tax3]] = tax3
     if dictionary[tax4] not in dictionary_reverse:
-        dictionary_reverse[dictionary[tax3]] = tax3
+        dictionary_reverse[dictionary[tax4]] = tax4
 
     tax1 = dictionary[tax1]
     tax2 = dictionary[tax2]
