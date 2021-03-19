@@ -18,6 +18,11 @@ For Species Tree estimation using FastME (NJ) and sister matrix
 2. Generate the most dominant (i.e. best weighted) triplets from all combinations of triplets
 3 - 5 are the same as with quartets.
 
+### Dependencies:
+
+1. Needs fastme application setup and the tool "fastme-2.1.5.2-linux64"
+2. For quartets, need the "quartet-controller.sh", "summarize_quartets.py" and "numeric_form_matrix_quartets.py" scripts
+3. For triplets, need the "triplet_count.sh", "triplet-encoding-controller.sh" and "numeric_form_matrix_quartets.py" scripts
 
 ### Running:
 
