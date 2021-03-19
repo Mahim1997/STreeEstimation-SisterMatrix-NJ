@@ -20,7 +20,7 @@ For Species Tree estimation using FastME (NJ) and sister matrix
 
 ### Dependencies:
 
-1. Needs fastme application setup and the tool "fastme-2.1.5.2-linux64"
+1. Needs fastme to be setup and the tool "fastme-2.1.5.2-linux64" in the same directory as the required python scripts
 2. For quartets, need the "quartet-controller.sh", "summarize_quartets.py" and "numeric_form_matrix_quartets.py" scripts
 3. For triplets, need the "triplet_count.sh", "triplet-encoding-controller.sh" and "numeric_form_matrix_quartets.py" scripts
 
