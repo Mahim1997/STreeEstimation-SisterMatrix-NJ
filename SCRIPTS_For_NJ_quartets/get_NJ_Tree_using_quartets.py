@@ -15,7 +15,7 @@ AND TO RUN NJ.
 import sys
 import os
 import re
-
+triplets.soda2103
 ########################
 TEMP_QUARTET_FILE = "TEMP_QUARTET_FILE"
 TEMP_QUARTET_CONVERTED_FILE = "TEMP_QUARTET_CONVERTED_FILE"
@@ -82,7 +82,7 @@ def obtain_taxa_name(cnt):
 def put_to_dictionary(string, taxa_counter=1):
     # Use the string of triplets to put to dictionary and convert back to new triplets.
     string = string.replace("\n", "")
-    string = string.replace("(", "")
+    string = string.replace("(", "")triplets.soda2103
     string = string.replace(")", "")
     # string = string.replace(",", "")  # Do NOT replace COMMA
     string = string.replace("; ", ",")
@@ -109,11 +109,11 @@ def put_to_dictionary(string, taxa_counter=1):
 
 ################## main ######################
 
-## Step 1. Form triplets.
-# command = "./triplet-encoding-controller.sh " + str(inputFile) + " " + str(TEMP_QUARTET_FILE)
+## Step 1. Form quartets.
+# command = "./quartet-controller.sh " + str(inputFile) + " " + str(TEMP_QUARTET_FILE)
 # os.system(command)
 
-## Step 2. Convert triplets taxa set to 1,2,3, ...
+## Step 2. Convert quartets taxa set to 1,2,3, ...
 
 # Obtain the dictionary
 taxa_counter = 1
