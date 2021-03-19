@@ -15,7 +15,7 @@ AND TO RUN NJ.
 import sys
 import os
 import re
-triplets.soda2103
+
 ########################
 TEMP_QUARTET_FILE = "TEMP_QUARTET_FILE"
 TEMP_QUARTET_CONVERTED_FILE = "TEMP_QUARTET_CONVERTED_FILE"
@@ -141,7 +141,7 @@ print("+++++ Backward ++++++")
 print(dictionary_reverse)
 
 
-##  Form the max-matrix-triplets using python script
+##  Form the max-matrix-quartets using python script
 command = "python3 numeric_form_matrix_quartets.py " + TEMP_QUARTET_CONVERTED_FILE + " > " + TEMP_MATRIX_FOR_NJ_QUARTETS
 os.system(command)
 
