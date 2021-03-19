@@ -1,4 +1,4 @@
-# STree_FastME_NJ
+# Speciest Tree Estimation using Sister Matrices from weighted quartets & triplets and using Neighbor Joining
 
 For Species Tree estimation using FastME (NJ) and sister matrix
 
