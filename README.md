@@ -5,7 +5,7 @@ For Species Tree estimation using FastME (NJ) and sister matrix
 
 ### Pipeline (with quartets):
 
-1. Generate allquarttripletsets embedded weighted quartets from a set of gene trees
+1. Generate all embedded weighted quartets from a set of gene trees
 2. Generate the most dominant (i.e. best weighted) quartets from all combinations of quartets
 
 
