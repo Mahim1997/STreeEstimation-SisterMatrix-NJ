@@ -22,26 +22,26 @@ For Species Tree estimation using FastME (NJ) and sister matrix
 
 ## Dependencies:
 
-1. Needs fastme to be setup and the tool "fastme-2.1.5.2-linux64" in the same directory as the required python scripts
-2. For quartets, need the "quartet-controller.sh", "summarize_quartets.py" and "numeric_form_matrix_quartets.py" scripts
-3. For triplets, need the "triplet_count.sh", "triplet-encoding-controller.sh" and "numeric_form_matrix_quartets.py" scripts
+1. Needs fastme to be setup and the tool **fastme-2.1.5.2-linux64** in the same directory as the required python scripts
+2. For quartets, need the **quartet-controller.sh**, **summarize_quartets.py** and **numeric_form_matrix_quartets.py** scripts
+3. For triplets, need the **triplet_count.sh**, **triplet-encoding-controller.sh** and **numeric_form_matrix_quartets.py** scripts
 
 ## Running:
 
 #### For Quartets: 
 
 ```bash
-  python3 SCRIPTS_For_NJ_quartets/get_NJ_Tree_using_quartets.py <best-wqrts-file> <output-file-name>
+  python3 SCRIPTS_For_NJ_quartets/get_NJ_Tree_using_quartets.py "best-wqrts-file" "output-file-name"
 ```
 
 #### For Triplets:
 
 ```bash
-  python3 SCRIPTS_For_NJ_triplets/compute_NJ_Tree_using_triplets.py <best-wtriplets-file> <output-file-name>
+  python3 SCRIPTS_For_NJ_triplets/compute_NJ_Tree_using_triplets.py "best-wtriplets-file" "output-file-name"
 ```
 
 
-## Acknowledgement
+## Acknowledgements
 
 - Neighbor Joining is computed by the [FastME](http://www.atgc-montpellier.fr/fastme/) tool.
 
