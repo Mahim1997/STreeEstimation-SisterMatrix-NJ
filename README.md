@@ -14,19 +14,19 @@ For Species Tree estimation using FastME (NJ) and sister matrix
 1. Generate all embedded weighted triplets from a set of gene trees
 2. Generate the most dominant (i.e. best weighted) triplets from all combinations of triplets
 
-## Pipeline (common steps):
+### Pipeline (common steps):
 
 3. Form a sister matrix using the above weighted quartets (S: sister/similarity matrix)
 4. Form a difference matrix (D) using S i.e. D = 1 - S (element-wise, normalized).
 5. Run NJ on this D matrix.
 
-### Dependencies:
+## Dependencies:
 
 1. Needs fastme to be setup and the tool "fastme-2.1.5.2-linux64" in the same directory as the required python scripts
 2. For quartets, need the "quartet-controller.sh", "summarize_quartets.py" and "numeric_form_matrix_quartets.py" scripts
 3. For triplets, need the "triplet_count.sh", "triplet-encoding-controller.sh" and "numeric_form_matrix_quartets.py" scripts
 
-### Running:
+## Running:
 
 #### For Quartets: 
 
