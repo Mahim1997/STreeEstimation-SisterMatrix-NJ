@@ -1,4 +1,4 @@
-# Species Tree Estimation using Sister Matrices from weighted quartets & triplets and using Neighbor Joining
+# Species Tree Estimation using Sister Matrices from weighted quartets & triplets with Neighbor Joining algorithm
 
 For Species Tree estimation using FastME (NJ) and sister matrix
 
