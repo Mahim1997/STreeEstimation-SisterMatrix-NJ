@@ -20,6 +20,19 @@ For Species Tree estimation using FastME (NJ) and sister matrix
 4. Form a difference matrix (D) using S i.e. D = 1 - S (element-wise, normalized).
 5. Run NJ on this D matrix.
 
+
+## To remove branch/edge length.
+- Use **DendroPy** library
+
+``` Python
+taxa = dendropy.TaxonNamespace()
+tree = dendropy.Tree.get_from_path(input_file, "newick", taxon_namespace=taxa, rooting="force-rooted")
+
+# https://dendropy.org/primer/trees.html
+for edge in tree.postorder_edge_iter():
+    edge.length = None
+```
+
 ## Dependencies:
 
 1. Needs fastme to be setup and the tool **fastme-2.1.5.2-linux64** in the same directory as the required python scripts
