@@ -31,6 +31,10 @@ tree = dendropy.Tree.get_from_path(input_file, "newick", taxon_namespace=taxa, r
 # https://dendropy.org/primer/trees.html
 for edge in tree.postorder_edge_iter():
     edge.length = None
+
+output_tree = tree.as_string("newick").strip()
+output_tree = output_tree.replace("[&R] ", "") ## remove this sign
+
 ```
 
 ## Dependencies:
