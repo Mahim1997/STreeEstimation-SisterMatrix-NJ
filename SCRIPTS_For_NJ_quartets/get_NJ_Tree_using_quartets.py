@@ -146,7 +146,7 @@ command = "python3 numeric_form_matrix_quartets.py " + TEMP_QUARTET_CONVERTED_FI
 os.system(command)
 
 ## Run NJ fast-me 
-command = "fastme -i TEMP_MATRIX_FOR_NJ_QUARTETS -o TEMP_OUTPUT_NJ_TREE_QUARTETS -m NJ"
+command = "./fastme-2.1.5.2-linux64 -i TEMP_MATRIX_FOR_NJ_QUARTETS -o TEMP_OUTPUT_NJ_TREE_QUARTETS -m NJ"
 os.system(command)
 
 ## Remove whitespaces and newlines
