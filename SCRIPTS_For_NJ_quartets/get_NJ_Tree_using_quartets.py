@@ -82,7 +82,7 @@ def obtain_taxa_name(cnt):
 def put_to_dictionary(string, taxa_counter=1):
     # Use the string of triplets to put to dictionary and convert back to new triplets.
     string = string.replace("\n", "")
-    string = string.replace("(", "")triplets.soda2103
+    string = string.replace("(", "")
     string = string.replace(")", "")
     # string = string.replace(",", "")  # Do NOT replace COMMA
     string = string.replace("; ", ",")
